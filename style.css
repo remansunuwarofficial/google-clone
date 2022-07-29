@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(14, 60, 21);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.navlinks{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.navlinks li{
+    margin: 0 10px;
+}
+
+.navlinks a{
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    color: white;
+}
+
+.navlinks a:hover{
+    text-decoration: underline;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+.main img{
+    margin-bottom: 40px;
+}
+
+#search{
+    height: 30px;
+    font-size: 20px;
+    padding: 4px 20px;
+   width: 30vw;
+    border-radius:60px;
+    border: 1px solid grey;
+}
+
+.rowButtons{
+    margin: 20px 0;
+}
+
+.rowButtons button{
+    padding: 10px 6px;
+    font-size: 14px;
+}
+
+.rowButtons button:hover{
+    cursor: pointer;
+    background-color: aliceblue;
+    border: 2px solid black;
+}
+
+footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    color: white;
+}
+
+footer .firstRow{
+    padding: 3px 0 0 10px;
+    height: 40px;
+}
+
+footer .secondRow{
+ 
+    height: 40px;
+}
+
+footer .secondRow ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+footer .secondRow ul li{
+    margin: 10px;
+}
+
+footer h6{
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 1263px){
+    #search{
+        width: 80vw;
+    }
+}
